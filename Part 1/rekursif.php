@@ -1,7 +1,11 @@
 <?php
-function tampilkanHaloDunia(){
-    echo "Halo dunia! <br>";
+function tampilAngka(int $jumlah, int $indeks) {
+    echo "Angka ke-{$indeks} <br>";
+
+    if ($indeks < $jumlah) {
+        tampilAngka($jumlah, $indeks + 1);
+    }
 }
 
-tampilkanHaloDunia();
+tampilAngka(20, 1);
 ?>
