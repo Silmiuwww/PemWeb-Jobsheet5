@@ -8,7 +8,7 @@
         echo $salam."<br>";
         echo " Perkenalkan, nama saya ".$nama."<br>";
         
-        echo "Saya berusia ". hitungUmur(1988, 2023) . " tahun<br>";
+        echo "Saya berusia ". hitungUmur(2005, 2025) . " tahun<br>";
         echo "Senang berkenalan dengan anda<br>";
     }
 
